@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#148e73"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:padding="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/bangladeshId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Canada"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:backgroundTint="#ff05"
+        android:textColor="#fff"/>
+
+    <Button
+        android:padding="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/indiaId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="France"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:backgroundTint="#ff05"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"/>
+
+    <Button
+        android:padding="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/pakistanId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Germany"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:backgroundTint="#ff05"
+        android:layout_marginTop="20dp" />
+    <Button
+        android:padding="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/italyId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Italy"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:backgroundTint="#ff05"
+        android:layout_marginTop="20dp" />
+    <Button
+        android:padding="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/japanId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Japan"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:backgroundTint="#ff05"
+        android:layout_marginTop="20dp" />
+    <Button
+            android:padding="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/kingdomId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="the United Kingdom"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="#ff05"
+            android:layout_marginTop="20dp" />
+    <Button
+            android:padding="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/usaId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="the United States"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="#ff05"
+            android:layout_marginTop="20dp" />
+
+</LinearLayout>
